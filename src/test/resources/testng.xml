@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Android Automation Suite">
+    <test name="Customer App Automation">
+        <classes>
+            <class name="testcase.TestLogInPage"/>
+            <!--<class name="LogIn"/>
+            <class name="DeviceRegistration"/>
+            <class name="SendMoney"/>
+            <class name="SendMoneyByTap"/>
+            <class name="Payment"/>
+            <class name="SchoolPayment"/>
+            <class name="CashOut"/>
+            <class name="Recharge"/>
+           <class name="TransactionHistory"/>
+            <class name="Limit"/>
+            <class name="Help"/>
+            <class name="ChangePIN"/> -->
+
+        </classes>
+    </test>
+</suite>
